@@ -16,13 +16,14 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: "IM Fell English SC", serif;
 }
 a {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
 #backColor-container {
-  background-color: rgba(0, 0, 100, 0.6);
+  background-color: rgba(115, 94, 12, 0.9);
 }
 #head-container {
   display: flex;
@@ -77,10 +78,5 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: url(https://github.com/TurtleWolf/Responsive-Web-Design_-_Technical-Document/blob/master/800px-Joy_Oil_gas_station_blueprints.jpg?raw=true)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: rgba(115, 94, 12, 01);
 }
