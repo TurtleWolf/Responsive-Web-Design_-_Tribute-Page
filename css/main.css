@@ -22,20 +22,19 @@ a {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
-#backColor-container {
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
 }
+
 #head-container {
   display: flex;
   flex-direction: reverse;
   width: 100%;
 }
-#navbar {
-  left: 0px;
-  width: 49%;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  border: 1mm ridge rgb(333, 333, 333, 0.6);
-} /* navbar */
+
 header {
   font-size: 1.5em;
   text-align: right;
@@ -46,23 +45,12 @@ header {
   border: double #32a1ce;
   padding: 4%;
 }
-section {
-  margin-top: 25px;
-  padding: 2%;
-  border: 2mm ridge rgb(333, 333, 333, 0.6);
-  background-color: #ad66d5;
-  font-size: 1.3em;
-  text-align: justify;
-  -webkit-box-shadow: inset 10px 10px 72px 3px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: inset 10px 10px 72px 3px rgba(0, 0, 0, 0.6);
-  box-shadow: inset 10px 10px 72px 3px rgba(0, 0, 0, 0.6);
-  background-color: #1565c0;
-  font: "Open Sans";
-}
-code {
-  background-color: #1565c0;
-  font: Inconsolata;
-  color: white;
+
+#img-div {
+  margin: -5px;
+  margin-top: 20px;
+  width: 100%;
+  border: 1px double silver;
 }
 @media (max-width: 1250px) {
   /* @media (width <= 30em) {....}  */
